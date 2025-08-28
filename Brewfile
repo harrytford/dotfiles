@@ -124,6 +124,10 @@ cask 'sourcetree'     # Git visual client
 cask 'visual-studio-code' # Code editor
 cask 'cursor'
 
+# other stuff
+cask 'zoom'
+cask 'steam'  # for funsies - FYI, rosetta 2 is needed via softwareupdate --install-rosetta --agree-to-license
+
 # Development Langs, Compilers, Package Managers and SDKs
 brew 'gcc'            # GNU C++ compilers
 brew 'go'             # Compiler for Go Lang
@@ -139,6 +143,9 @@ brew 'rust'           # Rust language
 # DevOps
 brew 'ansible'        # Automation
 brew 'docker'         # Containers
+brew 'kubernetes-cli'
+brew 'terraform'
+brew 'awscli'
 
 # Development Utils
 brew 'gh'             # Interact with GitHub PRs, issues, repos
